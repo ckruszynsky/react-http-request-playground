@@ -1,7 +1,7 @@
 {
-  "name": "react-api playground",
+  "name": "react-api-playground-with-axios",
   "version": "1.0.0",
-  "description": "",
+  "description": "react sample application using axios for better understanding different fundamentals using axios",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
