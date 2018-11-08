@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import "./FullPost.css";
 import axios from "axios";
-const url = "https://jsonplaceholder.typicode.com/posts";
+const url = "/posts";
 
 class FullPost extends Component {
   state = {
@@ -16,7 +16,7 @@ class FullPost extends Component {
 
     if (shouldFetchData) {
       axios
-        .get(`https://jsonplaceholder.typicode.com/posts/${this.props.id}`)
+        .get(`/posts/${this.props.id}`)
         .then(r => this.setState({ loadedPost: r.data }));
     }
   }

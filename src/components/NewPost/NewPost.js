@@ -3,7 +3,7 @@ import axios from "axios";
 
 import "./NewPost.css";
 
-const url = "https://jsonplaceholder.typicode.com/posts";
+const url = "/posts";
 class NewPost extends Component {
   state = {
     title: "",

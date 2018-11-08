@@ -4,6 +4,9 @@ import "./index.css";
 import App from "./App";
 import axios from "axios";
 
+const url = "https://jsonplaceholder.typicode.com/";
+axios.defaults.baseURL = url;
+axios.defaults.headers.common["X-Custom-Header"] = "My Custom Header";
 axios.interceptors.request.use(
   request => {
     //always return request else you'll be blocking the request

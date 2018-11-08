@@ -6,7 +6,7 @@ import NewPost from "../../components/NewPost/NewPost";
 import "./Blog.css";
 import axios from "axios";
 
-const url = "https://jsonplaceholder.typicode.com/posts";
+const url = "/posts";
 const ERROR_MESSASGE = (
   <h1 style={{ textAlign: "center", fontWeight: "bold", color: "red" }}>
     ERROR OCCURRED: FETCHING DATA
